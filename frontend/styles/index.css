@@ -741,6 +741,13 @@ img {
   outline: none;
   padding: .25rem .5rem .5rem 0;
 }
+.bttn{
+  font-size: var(--font-medium);
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
 /*==================== FOOTER ====================*/
 .footer{
   padding-top: 2rem;
