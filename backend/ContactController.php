@@ -7,7 +7,7 @@
         $ctn->setPattern($_POST['pattern']);
         $ctn->setMessage($_POST['message']);
         $ctn->save();
-        header('Location: ../index.php');    
+        header('Location: ../index.html');    
     }
     
 ?>
