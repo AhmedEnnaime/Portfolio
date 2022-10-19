@@ -834,6 +834,16 @@ img {
 
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
+@media screen and (max-width: 568px) {
+  .div_img{
+    display: grid;
+    justify-content: center;
+  }
+  .about__img{
+    margin: 0;
+  }
+  
+}
 @media screen and (max-width: 350px) {
   .container{
     margin-left: var(--mb-1);
